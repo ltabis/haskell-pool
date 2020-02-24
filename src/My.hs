@@ -148,8 +148,8 @@ mySpan f (x:xs) | f x == True  = myTuple (myAppend [x] (myFst next)) (mySnd next
                     next = mySpan f xs
 
 -- Uses a function passed as parameter to order a list.
-myQuickSort :: (a -> a -> Bool) -> [a] -> [a]
-myQuickSort f [] = []
-myQuickSort f (x:xs) = myAppend (myQuickSort (myFst next)) myAppend ([x] (myQuickSort (mySnd next)))
-                       where
-                           next = mySpan (\y -> y) (f x (myHead xs)) xs
+-- myQuickSort :: (a -> a -> Bool) -> [a] -> [a]
+-- myQuickSort f [] = []
+-- myQuickSort f (x:xs) = myAppend (myQuickSort (myFst next)) myAppend ([x] (myQuickSort (mySnd next)))
+--                        where
+--                            next = mySpan (\y -> y) (f x (myHead xs)) xs
