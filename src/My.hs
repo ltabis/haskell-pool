@@ -1,3 +1,7 @@
+-- | My.hs
+-- | Lucas Tabis
+-- | File containing snd year haskell pool from Epitech.
+
 -- increment an int by one.
 mySucc :: Int -> Int
 mySucc n = n + 1
