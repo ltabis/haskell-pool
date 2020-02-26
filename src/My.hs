@@ -1,6 +1,6 @@
 -- | My.hs
 -- | Lucas Tabis
--- | File containing snd year haskell pool from Epitech.
+-- | File containing snd year haskell pool from Epitech, day 1.
 
 -- increment an int by one.
 mySucc :: Int -> Int
